@@ -1,0 +1,55 @@
+@import "../../assets/styles/var.scss";
+
+.root {
+  width: 100vw;
+  height: $header-hight;
+  background-color: $primary-theme;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  .header-right {
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    .preview-control {
+      cursor: pointer;
+      width: 76px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+      box-sizing: border-box;
+      color: #ccc;
+      justify-content: space-between;
+      font-size: 14px;
+    }
+    .open-new-tab {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #ccc;
+      font-size: 14px;
+      padding: 0 10px;
+      box-sizing: border-box;
+      cursor: pointer;
+      width: 158px;
+    }
+    .login {
+      width: 80px;
+      height: 28px;
+      background-color: #3b82f6;
+      color: #ffffffe6;
+      text-align: center;
+      line-height: 28px;
+      cursor: pointer;
+    }
+  }
+}
